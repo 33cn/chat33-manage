@@ -1,0 +1,7 @@
+:root {
+  --background: #F1F4F6;
+  --theme-color: #32B2F7; /* chart需要另行修改 */
+  --color-light: #8A97A5;
+  --color-dark: #24374E;
+  --base-font-size: 14px;
+}

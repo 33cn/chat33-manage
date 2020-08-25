@@ -1,0 +1,49 @@
+{
+  "name": "chat33-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode dev",
+    "build": "vue-cli-service build --mode product"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "core-js": "^2.6.5",
+    "echarts": "^4.2.1",
+    "element-ui": "^2.4.5",
+    "vue": "^2.6.6",
+    "vue-class-component": "^6.0.0",
+    "vue-property-decorator": "^8.0.0",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/echarts": "^4.1.8",
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-typescript": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "babel-plugin-component": "^1.1.1",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.6.0",
+    "postcss-url": "^8.0.0",
+    "typescript": "^3.2.1",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-import": {},
+      "postcss-url": {},
+      "postcss-preset-env": {
+        "stage": 3,
+        "features": {
+          "nesting-rules": true
+        }
+      }
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
